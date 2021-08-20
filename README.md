@@ -5,5 +5,4 @@ The use of convolutional neural networks (CNNs) has allowed for the classificati
 
 As an attempt to try to solve the out of domain classification problem, CNN classification models were first trained on images from one domain (ISIC 2020 Barcelona Clinic and Memorial Sloan Kettering Cancer Center) and then tested on images from another domain. The classification models were trained on a smaller subset of the larger data in order to solve the class imbalance. 
 
-![BCN ROC](https://github.com/mikylab/cycleGan-classifier/blob/63d449907f4838e506d9634589fcc5eaa671d852/resources/BCN%20Small%20Dataset%20ROC.png)
-
+![BCN ROC](https://github.com/mikylab/cycleGan-classifier/blob/63d449907f4838e506d9634589fcc5eaa671d852/resources/BCN%20Small%20Dataset%20ROC.png)![MSKCC ROC](https://github.com/mikylab/cycleGan-classifier/blob/f37f69f19a92ce8fde45010bfd3a30fb5d74c675/resources/MSKCC%20Small%20Dataset%20ROC.png)
