@@ -7,6 +7,6 @@ As an attempt to try to solve the out of domain classification problem, CNN clas
 
 ![BCN ROC](https://github.com/mikylab/cycleGan-classifier/blob/63d449907f4838e506d9634589fcc5eaa671d852/resources/BCN%20Small%20Dataset%20ROC.png)![MSKCC ROC](https://github.com/mikylab/cycleGan-classifier/blob/f37f69f19a92ce8fde45010bfd3a30fb5d74c675/resources/MSKCC%20Small%20Dataset%20ROC.png)
 
-The decrease in performance is hypothesized to be attributed to changes in lighting, focus, and other image quality characteristics. The [CycleGan] (https://junyanz.github.io/CycleGAN/) model is able to translate between image domains without paired examples. Therefore, since the issue appeared to be an out of distribution problem, the goal was to use the cycleGan to translate between clinic image domains to improve results. 
+The decrease in performance is hypothesized to be attributed to changes in lighting, focus, and other image quality characteristics. The [CycleGan](https://junyanz.github.io/CycleGAN/) model is able to translate between image domains without paired examples. Therefore, since the issue appeared to be an out of distribution problem, the goal was to use the cycleGan to translate between clinic image domains to improve results. 
 
 
