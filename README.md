@@ -9,5 +9,5 @@ As an attempt to try to solve the out of domain classification problem, CNN clas
 
 The decrease in performance is hypothesized to be attributed to changes in lighting, focus, and other image quality characteristics. The [CycleGan](https://junyanz.github.io/CycleGAN/) model is able to translate between image domains without paired examples. Therefore, since the issue appeared to be an out of distribution problem, the goal was to use the CycleGAN to translate between clinic image domains to improve results. 
 
-The classifer performs on par with other models. At this point in time, the code is not being adjusted or modified. It's code can be applied and used effectively. The CycleGAN code is still in development. It is being adjusted to account for performance issues.
+The classifer performs on par with other models. At this point in time, the code is not being adjusted or modified. [Melanoma CNN Code](https://github.com/mikylab/test2train/blob/b75c52243f435b37f57a32543820f03a61aadeee/melanoma_CNN/README.md) It's code can be applied and used effectively. The CycleGAN code is still in development. It is being adjusted to account for performance issues.
 
