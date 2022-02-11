@@ -1,5 +1,5 @@
-# Binary Classifier
-A melanoma classifier model built on the EffecientNet B3 model using transfer learning. 
+# Melanoma CNN Binary Classifer
+A melanoma CNN classifer model built on the EffecientNet B3 model pretrained on imagenet and then retrained on images of benign and malignant lesions. This code trains the models on the ISIC 2020 dataset as well as indivual clinic subsets. The model only looked at images and did not take into account other features that were provided in the CSV files. 
 
 This file consists of the original binary classifier that was trained to determine a baseline for performance on predicting classes of lesions. The EffecientNet_CNN_full_dataset uses the entire dataset from the ISIC 2020 challenge. Alternatively, the EffecientNet_CNN_Single_code contains the code to train a model on only a single clinic from the data. Both of these models use the pre-exisiting EfficientNet B3 Model trained on ImageNet and then use tranfer learning. The CNN_ROC file produces ROC curves to compare the results of a model's predictions and the ground truth. 
 
