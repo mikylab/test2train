@@ -5,7 +5,7 @@ The use of convolutional neural networks (CNNs) has allowed for the classificati
 
 As an attempt to try to solve the out of domain classification problem, CNN classification models were first trained on images from one domain (ISIC 2020 Barcelona Clinic and Memorial Sloan Kettering Cancer Center) and then tested on images from another domain. The classification models were trained on a smaller subset of the larger data in order to solve the class imbalance. The images below are the ROC curves for the models tested on their own test set and another clinic's test set. The models decrease in performance when tested on a different clinics data. 
 
-![BCN ROC](https://github.com/mikylab/test2train/blob/af50c9742d1a4b6c1c2717fb7cfcd8cdf293bec2/resources/BCN%20Small%20Dataset%20ROC.png)![MSKCC ROC](https://github.com/mikylab/cycleGan-classifier/blob/f37f69f19a92ce8fde45010bfd3a30fb5d74c675/resources/MSKCC%20Small%20Dataset%20ROC.png)
+![BCN ROC](https://github.com/mikylab/test2train/blob/af50c9742d1a4b6c1c2717fb7cfcd8cdf293bec2/resources/BCN%20Small%20Dataset%20ROC.png)![MSKCC ROC](https://github.com/mikylab/test2train/blob/8a21685030b278835dc9b90194c6c625c3697999/resources/MSKCC%20Small%20Dataset%20ROC.png)
 
 The decrease in performance is hypothesized to be attributed to changes in lighting, focus, and other image quality characteristics. The [CycleGan](https://junyanz.github.io/CycleGAN/) model is able to translate between image domains without paired examples. Therefore, since the issue appeared to be an out of distribution problem, the goal was to use the cycleGan to translate between clinic image domains to improve results. 
 
