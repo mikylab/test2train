@@ -20,4 +20,4 @@ Albumentations Augmentation Library:
 https://pypi.org/project/albumentations/#spatial-level-transforms
 
 SIIM ISIC Melanoma Classification 1st place solution- augmentations used 
-https://github.com/haqishen/SIIM-ISIC-Melanoma-Classification-1st-Place-Solution/blob/master/dataset.py![image](https://user-images.githubusercontent.com/43506570/133662420-56e6a166-a21c-47df-82a8-c6e04d6523d5.png)
+https://github.com/haqishen/SIIM-ISIC-Melanoma-Classification-1st-Place-Solution/blob/master/dataset.py
